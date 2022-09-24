@@ -18,13 +18,33 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel='icon' href="<%= BASE_URL %>favicon.png">
+    <!-- Update your html tag to include the itemscope and itemtype attributes. -->
+    <!-- Place this data between the <head> tags of your website -->
+    <title>MTL Airdashers</title>
+    <meta name="description" content="A grassroots fighting game community in Montreal." />
+    
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@MTLAirdashers"/>
+    <meta name="twitter:title" content="MTL Airdashers"/>
+    <meta name="twitter:description" content="A grassroots fighting game community in Montreal."/>
+    <meta name="twitter:creator" content="@MTLAirdashers"/>
+    <!-- Twitter summary card with large image must be at least 280x150px -->
+    <meta name="twitter:image:src" content="<%= BASE_URL %>img/umad.jpg"/>
+    
+    <!-- Open Graph data -->
+    <meta property="og:title" content="MTL Airdashers" />
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale:alternate " content="fr"/>
+    <meta property="og:url" content="<%= BASE_URL %>" />
+    <meta property="og:image" content="<%= BASE_URL %>img/umad.jpg" />
+    <meta property="og:description" content="A grassroots fighting game community in Montreal."/>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.5, user-scalable=1, shrink-to-fit=no" name="viewport">
-    <meta name="description" content="A grassroots fighting game community in Montreal.">
-    <meta name="author" content="UMAD Montreal">
-    <link rel="icon" href="<%= BASE_URL %>favicon.png">
-    <title>MTL Airdashers</title>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
   </head>
