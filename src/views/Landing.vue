@@ -5,7 +5,7 @@
             <!-- shape Hero -->
             <section class="section-shaped my-0">
                 <div class="shape shape-style-1 shape-default shape-skew">
-                    <img class="background" v-lazy="'img/umad.jpg'" />
+                    <img class="background" v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fumad.jpg?alt=media&token=af516c2f-d387-4142-b269-65c3644e93ef'" />
                 </div>
                 
                 <div class="container shape-container d-flex">
@@ -52,9 +52,9 @@
                                         {{ $t("landing.cards.card2.description") }}
                                     </p>
                                     <div>
-                                        <badge type="primary" rounded>{{ $t("landing.cards.card2.chip1") }}</badge>
-                                        <badge type="primary" rounded>{{ $t("landing.cards.card2.chip2") }}</badge>
-                                        <badge type="primary" rounded>{{ $t("landing.cards.card2.chip3") }}</badge>
+                                        <badge type="success" rounded>{{ $t("landing.cards.card2.chip1") }}</badge>
+                                        <badge type="success" rounded>{{ $t("landing.cards.card2.chip2") }}</badge>
+                                        <badge type="success" rounded>{{ $t("landing.cards.card2.chip3") }}</badge>
                                     </div>
                                 </card>
                             </div>
@@ -67,8 +67,8 @@
                                         {{ $t("landing.cards.card3.description") }}
                                     </p>
                                     <div>
-                                        <badge type="primary" rounded>{{ $t("landing.cards.card3.chip1") }}</badge>
-                                        <badge type="primary" rounded>{{ $t("landing.cards.card3.chip2") }}</badge>
+                                        <badge type="warning" rounded>{{ $t("landing.cards.card3.chip1") }}</badge>
+                                        <badge type="warning" rounded>{{ $t("landing.cards.card3.chip2") }}</badge>
                                     </div>
                                 </card>
                             </div>
@@ -81,7 +81,7 @@
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
-                        <img src="img/umad2.jpg" class="img-fluid">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fumad2.jpg?alt=media&token=e8c0a6d4-22be-41c9-a5ba-b38ca6dc10bc" class="img-fluid">
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
@@ -131,22 +131,22 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-2 col-4">
                                     <a href="https://incendium.gg" target="_blank">
-                                    <img v-lazy="'img/incendium.png'" class="img-fluid partners">
+                                    <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fincendium.png?alt=media&token=aec342c9-99a9-429b-a0e2-808f4a8e5b9d'" class="img-fluid partners">
                                     </a>
                                 </div>
                                 <div class="col-lg-5 col-4">
                                     <a href="https://lanets.ca" target="_blank">
-                                    <img v-lazy="'img/lanets.png'" class="img-fluid partners">
+                                    <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Flanets.png?alt=media&token=3ddd61f8-d90a-43d3-b3b0-357c0be0d1d3'" class="img-fluid partners">
                                     </a>
                                 </div>
                                 <div class="col-lg-3 col-4">
                                     <a href="https://twitter.com/ssbmontreal" target="_blank">
-                                    <img v-lazy="'img/ssbmontreal.png'" class="img-fluid partners">
+                                    <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fssbmontreal.png?alt=media&token=888990be-1540-42bf-8cc0-5e11e144b0c2'" class="img-fluid partners">
                                     </a>
                                 </div>
                                 <div class="col-lg-2 col-4">
                                     <a href="https://twitter.com/MTLGamingCentre" target="_blank">
-                                    <img v-lazy="'img/mgc.png'" class="img-fluid partners">
+                                    <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fmgc.png?alt=media&token=a01969c3-a58d-4675-9c2d-c6cc559f42a2'" class="img-fluid partners">
                                     </a>
                                 </div>
                             </div>

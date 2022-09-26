@@ -2,12 +2,12 @@
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/tamashi-glow.png" alt="logo" class="tamashi">
+                <img src="https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Ftamashi-glow.png?alt=media&token=66cc4584-03d1-4f6c-9723-c06a7422cdca" alt="logo" class="tamashi">
             </router-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <img src="img/tamashi-glow.png" class="tamashi">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Ftamashi-glow.png?alt=media&token=66cc4584-03d1-4f6c-9723-c06a7422cdca" class="tamashi">
                 </div>
                 <div class="col-6 collapse-close">
                     <close-button @click="closeMenu"></close-button>
