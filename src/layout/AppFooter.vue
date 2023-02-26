@@ -12,7 +12,7 @@
                 <div class="col-md-6">
                     <ul class="nav nav-footer justify-content-end">
                         <li class="nav-item">
-                            <a href="mailto:mtlairdashers@gmail.com">{{ $t("socials.contact") }}</a>
+                            <a href="mailto:contact@umad.ca">{{ $t("socials.contact") }}</a>
                         </li>
                     </ul>
                 </div>
