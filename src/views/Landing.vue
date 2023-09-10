@@ -129,22 +129,27 @@
                         <div class="text-center">
                             <h4 class="display-4 mb-5 mt-5">{{ $t("landing.section3.partners") }}</h4>
                             <div class="row justify-content-center">
-                                <div class="col-lg-2 col-4">
-                                    <a href="https://incendium.gg" target="_blank">
-                                    <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fincendium.png?alt=media&token=aec342c9-99a9-429b-a0e2-808f4a8e5b9d'" class="img-fluid partners">
+                                <div class="col-lg-6 col-4">
+                                    <a href="https://otakuthon.com" target="_blank">
+                                    <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2FOtakuthon_logo.png?alt=media&token=6d55080a-c1cd-4fb6-88c5-9e93505a84ea'" class="img-fluid partners">
                                     </a>
                                 </div>
-                                <div class="col-lg-5 col-4">
+                                <div class="col-lg-6 col-4">
                                     <a href="https://lanets.ca" target="_blank">
                                     <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Flanets.png?alt=media&token=3ddd61f8-d90a-43d3-b3b0-357c0be0d1d3'" class="img-fluid partners">
                                     </a>
                                 </div>
-                                <div class="col-lg-3 col-4">
+                                <div class="col-lg-2 col-5">
+                                    <a href="https://incendium.gg" target="_blank">
+                                    <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fincendium.png?alt=media&token=aec342c9-99a9-429b-a0e2-808f4a8e5b9d'" class="img-fluid partners">
+                                    </a>
+                                </div>
+                                <div class="col-lg-3 col-5">
                                     <a href="https://twitter.com/ssbmontreal" target="_blank">
                                     <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fssbmontreal.png?alt=media&token=888990be-1540-42bf-8cc0-5e11e144b0c2'" class="img-fluid partners">
                                     </a>
                                 </div>
-                                <div class="col-lg-2 col-4">
+                                <div class="col-lg-2 col-5">
                                     <a href="https://twitter.com/MTLGamingCentre" target="_blank">
                                     <img v-lazy="'https://firebasestorage.googleapis.com/v0/b/umadmtl.appspot.com/o/images%2Fmgc.png?alt=media&token=a01969c3-a58d-4675-9c2d-c6cc559f42a2'" class="img-fluid partners">
                                     </a>

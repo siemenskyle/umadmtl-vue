@@ -16,6 +16,13 @@
             
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
                 <li class="nav-item">
+                    <a class="nav-link nav-link-icon" href="http://store.umad.ca" target="_blank" rel="noopener"
+                       data-toggle="tooltip" :title="$t('socials.store')">
+                        <font-awesome-icon icon="fa-brands fa-shopify" />
+                        <span class="nav-link-inner--text d-lg-none">Store</span>
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link nav-link-icon" href="https://www.facebook.com/groups/1532700160322692" target="_blank" rel="noopener"
                        data-toggle="tooltip" :title="$t('socials.facebook')">
                         <font-awesome-icon icon="fa-brands fa-square-facebook" />

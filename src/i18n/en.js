@@ -2,6 +2,7 @@ export {messages};
 
 const messages = {
     socials: {
+        store: "Visit our store!",
         facebook: "Join the Facebook group!",
         twitter: "Follow us on Twitter!",
         discord: "Join us on Discord!",

@@ -22,10 +22,11 @@ import Argon from "./plugins/argon-kit";
 import { getLocale } from "./i18n/locale";
 
 /* import the fontawesome core */
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faSquareFacebook, faSquareTwitter, faDiscord, faTwitch, faSquareYoutube } from '@fortawesome/free-brands-svg-icons';
-library.add(faSquareFacebook, faSquareTwitter, faDiscord, faTwitch, faSquareYoutube);
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { faSquareFacebook, faSquareTwitter, faDiscord, faTwitch, faSquareYoutube, faShopify } from '@fortawesome/free-brands-svg-icons';
+library.add(faSquareFacebook, faSquareTwitter, faDiscord, faTwitch, faSquareYoutube, faShopify);
+
 
 import VueI18n from 'vue-i18n';
 
