@@ -3,6 +3,7 @@ import Router from "vue-router";
 import AppHeader from "./layout/AppHeader";
 import AppFooter from "./layout/AppFooter";
 import Landing from "./views/Landing.vue";
+import BookClub from './views/BookClub.vue';
 
 Vue.use(Router);
 
@@ -16,6 +17,15 @@ export default new Router({
       components: {
         header: AppHeader,
         default: Landing,
+        footer: AppFooter
+      }
+    },
+    {
+      path: "/bookclub",
+      name: "bookclub",
+      components: {
+        header: AppHeader,
+        default: BookClub,
         footer: AppFooter
       }
     },
